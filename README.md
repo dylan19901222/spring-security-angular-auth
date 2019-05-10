@@ -2,9 +2,13 @@
 > 在spring中可使用spring-security角色控制、權限控管等，可從官網找到，在 @EnableGlobalMethodSecurity 這個註釋中可使用securedEnabled、prePostEnabled 或 jsr250Enabled 3 種方式來達到 API 或 Method 權限控管，背後是使用 AOP 相關技術實作出來的，但在使用這些之前需先實作 WebSecurityConfigurerAdapter 設置相關的設定，至於如何實作請自己google，或參考內容中的 WebSecurityConfig 自行測試、驗證
 
 > 在 spring 的安全機制中可分為 Authority 及 Role 2種機制，別把2種東西搞混了
+
 > securedEnabled 對應的是 @Secured 這個註釋，其對應的是 Authority 非 Role 
+
 > prePostEnabled 對應的是 @PreAuthorize 這個註釋，可使用表達式使用 Role 或 Authority
+
 > jsr250Enabled 對應的是 @RolesAllowed 這個註釋，其對應的是 Role 非 Authority 
+
 > securedEnabled、jsr250Enabled 是做不到「xxx AND xxx」的，如希望認證時需要含有 2 種以上的角色或權限請使用 prePostEnabled
 
 > 此模板目前採用 h2 存取使用者資訊，其 SQL 指令在 resources 底下的 data.sql，可自行調整使用者資料測試(目前使用者密碼皆為1234)
