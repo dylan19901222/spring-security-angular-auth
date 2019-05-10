@@ -1,0 +1,4 @@
+<div *ngIf="isLogin()" class="navbar navbar-dark bg-dark">
+  <span>Hi {{getUserName()}}</span>
+  <button  class="btn btn-primary" (click)="logout()">Logout</button>
+</div>

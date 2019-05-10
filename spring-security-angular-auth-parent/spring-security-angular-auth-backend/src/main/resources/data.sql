@@ -1,0 +1,4 @@
+insert into auth_user (username,password,role,is_enabled) VALUES ('Dylan','$2a$10$mRzmdBfs2KsJEb5NLa63FehNKp1LeklkDhZFOMhU8D83ysPb.YRjK','ROLE_ADMIN，ROLE_USER',true);
+insert into auth_user (username,password,role,is_enabled) VALUES ('Emily','$2a$10$mRzmdBfs2KsJEb5NLa63FehNKp1LeklkDhZFOMhU8D83ysPb.YRjK','ROLE_ADMIN',true);
+insert into auth_user (username,password,role,is_enabled) VALUES ('Samuel','$2a$10$mRzmdBfs2KsJEb5NLa63FehNKp1LeklkDhZFOMhU8D83ysPb.YRjK','ROLE_USER',true);
+insert into auth_user (username,password,role,is_enabled) VALUES ('Mike','$2a$10$mRzmdBfs2KsJEb5NLa63FehNKp1LeklkDhZFOMhU8D83ysPb.YRjK','ROLE_USER',false);
