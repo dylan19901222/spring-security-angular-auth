@@ -115,7 +115,7 @@
 		</plugins>
 		<resources>
 			<resource>
-				<directory>../${project.artifactId}-frondend/dist</directory>
+				<directory>../${project.artifactId}-frontend/dist</directory>
 				<targetPath>META-INF/resources</targetPath>
 				<includes>
 					<include>**/**</include>

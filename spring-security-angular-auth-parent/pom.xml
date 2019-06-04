@@ -19,7 +19,7 @@
 		<maven.test.skip>true</maven.test.skip>
 	</properties>
 	<modules>
-		<module>spring-security-angular-auth-frondend</module>
+		<module>spring-security-angular-auth-frontend</module>
 		<module>spring-security-angular-auth-backend</module>
 	</modules>
 	<dependencies>
