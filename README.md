@@ -70,6 +70,6 @@
 Dylan
 ```
 
-## Frondend(Angular4)
+## Frontend(Angular4)
 > 主要頁面為2頁，目的為帳戶登入、帳戶登出及權限API測試用，因僅提供測試，故畫面簡陋，請自行增加設計
 
